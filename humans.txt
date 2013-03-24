@@ -4,6 +4,7 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    <Jacques Tardie> -- <Dude> -- <@jacquestardie>
 
 # THANKS
 
