@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Code for Maine | A Code for America Brigade</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet br    <link href="style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      var pluginUrl =
+      '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+      _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+      _gaq.push(['_setAccount', 'UA-39451042-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=447202292015431";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  </head>
+
+  <body>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar. Include responsive CSS to utilize. -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">Code for Maine</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#meetup">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown" id="menu1">
+                  <a href="#menu1" class="dropdown-toggle" data-toggle="dropdown">
+                    Resources
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/maine-brigade">
+                      <i class=icon-comment icon-white></i>
+                      Our Google Groups Forum</a>
+                    </li>
+                    <li>
+                      <a href="http://www.meetup.com/Code-for-Maine/">
+                        <i class=icon-user icon-white></i>
+                        Our Gatherings on Meetup</a>
+                    <li>
+                      <a href="https://github.com/code4maine">
+                        <i class=icon-wrench icon-white></i>
+                        Our Code on GitHub</a>
+                    </li>
+                    <li>
+                      <a href="https://code4maine.uservoice.com">
+                      <i class=icon-thumbs-up icon-white></i>
+                      Idea List for Civic Apps and Open Data</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/folderview?id=0B_H1RMCybuylVjVoRXlfVzB2ZjQ&usp=sharing">
+                        <i class=icon-folder-open icon-white></i>
+                        Our Docs on Google</a>
+                    </li>
+
+                    <li class="divider"></li>
+
+                    <li>
+                      <a href="https://twitter.com/search?q=%23cfabrigade">
+                        <i class=icon-retweet icon-white></i>
+                        #cfabrigade - National Tweets</a>
+                      </li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+    <!-- Carousel - but not using at the moment
+    ================================================== -->
+    <div class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/sd.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Hello World. We Are Code For San Diego.</h1>
+              <p class="lead">
+                Come join developers, designers, makers and community leaders, who volunteer to help Maine 
+                government agencies and civic orgs adopt open web technologies.
+              </p>
+               <p>
+              <a class="btn btn-large btn-primary"
+                href="http://www.meetup.com/Code-for-Maine/" target="_blank">Stop By Our Meetups</a>&nbsp;&nbsp;&nbsp;
+              <a class="btn btn-large btn-primary"
+                href="http://github.com/code4maine/" target="_blank">Check out our Projects</a></p>
+                <p>
+<!--
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+&nbsp;<g:plusone></g:plusone> &nbsp;
+
+<div class="fb-like" data-href="http://codeforsandiego.org" data-send="false" data-layout="button_count" data-width="150" data-show-faces="true" data-font="arial"></div>-->
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+    <div class="container marketing">
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="span4">
+          <img src="images/captain.png">
+          <h2>Come To Our Meetups</h2>
+          <p>A casual <a href="http://www.meetup.com/cfabrigade/Open-San-Diego/">meetup</a>, usually bi-weekly, that explores different civic technology topics.</p>
+          <p><a class="btn" href="#meetup">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+          <img src="images/community.png">
+          <h2>Join Online Discussions</h2>
+          <p><a href="https://groups.google.com/forum/?fromgroups#!forum/codeforsandiego">
+            An open conversation online</a> about what we're doing now and what's next. We're also on
+            freenode IRC at <a href="http://webchat.freenode.net?channels=codeforsandiego&uio=d4">#codeforsandiego</a>.</p>
+          <p><a class="btn" href="#groups">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+          <img src="images/cfa_logo_greyscale.png">
+          <h2>See Our Inspiration</h2>
+          <p><a href="http://codeforamerica.org/">Code for America</a> is the organization that helped inspire
+            many of us that we can change our City and Region.
+          </p>
+          <p><a class="btn" href="#cfa">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+          <img name="priorities" id="priorities" class="featurette-image pull-right" src="images/noun_project_3559_priorities.png">
+        <h2 class="featurette-heading">Our Priorities. <span class="muted">The things we care about.</span></h2>
+        <p class="lead">
+          <ul class="lead">
+          <li>We want to assist in making sure San Diegans' "citizen experience" is among the best in the nation</li>
+          <li>It is important to us that San Diego lead the nation in efficient procurement of civic software solutions.</li>
+          <li>We believe that San Diegans should be able to work together create a more engaged and efficient democracy.</li>
+          <li>We want to help maximize the Internet’s potential to spur economic development.</li>
+          </ul>
+        Check out our <a href='https://docs.google.com/a/codeforamerica.org/document/d/1iKnFxFh_sU7iruh14ubk1CORMyPRan7lIPmKTj3W8J4/edit#'>Priorities Document</a> to read a full articulation of these ideas. [protip: you can edit or comment on any of our docs including this website]
+      </div>
+
+ <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" style="padding-bottom: 75px" src="images/noun_project_756_citizen.png">
+        <h2 class="featurette-heading">Works In Progress. <span class="muted">Some Of Our 2013 Projects.</span></h2>
+        <p class="lead">
+          <ul class="lead">
+            <li>
+              <a href="http://catalog.opensandiego.org/">Catalog of San Diego Tech Resources and Datasets</a>.
+              List of resources that you can use to create useful and fun things.
+            </li>
+            <li>
+              <a href="http://maps.opensandiego.org/">Open San Diego Maps</a>.
+              Open Repository of Geospatial data from the San Diego Region. 
+            </li>
+            <li>
+              <a href="http://data.sandiegodata.org/">San Diego Regional Data Library</a>.
+              A Library of San Diego Datasets
+            </li>
+            <li>
+              <a href="http://www.ecitizens.org">ecitizens</a>.
+              A Knight Foundation funded prototype development project to collect, store and analyze local-government documents and multimedia - then alert citizens when their keywords are matched. 
+            </li>
+            <li>
+              <a href="http://www.sandiegotreemap.org">San Diego Tree Map</a>.
+              An Open and editable map of Trees in San Diego County. The brigade will be working on helping to make this project sustainable going forward.
+            </li>
+          </ul>
+        </p>
+          See our full list of projects and repositories on <a href="https://github.com/codeforsandiego">GitHub</a>
+      </div>
+
+  <hr class="featurette-divider">
+      <div class="featurette">
+        <img class="featurette-image pull-left" style="padding-bottom: 75px" src="images/noun_project_756_idea.png">
+        <h2 class="featurette-heading">Ideas and Proposals. <span class="muted">Some things we want to work on.</span></h2>
+        <p class="lead">
+          <ul class="lead">
+            <li>
+              <a href="https://docs.google.com/a/codeforamerica.org/document/d/13KJlt6VeX25HvbDRZIaAPIpWJxwW5r-DCbG3m3R_rgQ/edit">Capital Improvements Program Project Website and Community Input Toolset</a>.
+            </li>
+            <li>
+              <a href="https://docs.google.com/a/codeforamerica.org/document/d/1x7avrBd-kpICN3VBER7c4N7i6_XXTTNUBAAnY6nK3U0/edit">Citizen Sidewalk Assessment Program</a>.
+            </li>
+          </ul>
+        </p>
+          See our full list of proposals on <a href="https://drive.google.com/a/codeforamerica.org/?pli=1#folders/0Byd4lP5Lia8wQUtzNXhOWTNlYkk">Google Docs</a>, or visit and contribute to our <a href='http://c4sd.uservoice.com/'>User Voice</a> site to propose your own idea or vote on others.
+      </div>
+
+  <hr class="featurette-divider">
+
+      <div class="featurette">
+        <a href="http://opensandiego.org/">
+          <img name="osd" id="osd" class="featurette-image pull-right" src="images/opensd-logo-square-cropped.png">
+        </a>
+        <h2 class="featurette-heading">Generally interested in Open Government?<span class="muted"> ... not a coder but want to help?</span></h2>
+        <p class="lead">We are the software development group affiliated with <a href="http://opensandiego.org/">Open San Diego</a>,
+        which is a larger group of San Diegans who meet regularly to share knowledge and collaborate on all sorts of projects to make our region a better place to live. Join us at one of the <a href='http://www.meetup.com/cfabrigade/Open-San-Diego/'>Meetups</a> which are held about once a month and usually have a specific speaker or topic. Also Check out the general <a href='http://forum.opensandiego.org/'>forum</a>, the <a href = 'http://blog.opensandiego.org/'>Open San Diego Blog</a> and <a href='https://twitter.com/opensandiego'>@opensandiego</a> on twitter.
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <a href="http://www.meetup.com/Code-for-Maine/">
+          <img name="meetup" id="meetup" class="featurette-image pull-left" src="images/meetup.jpg">
+          </a>
+        <h2 class="featurette-heading">We Meet Often. <span class="muted">Come Join Us.</span></h2>
+        <p class="lead">View our <a href="http://www.meetup.com/Code-for-Maine/">
+          Meetups site</a> for our next location and time. We try to meet every few
+          Weeks where we hack (develop) our projects,
+          or brainstorm on current issues and activities around San Diego.</p> 
+        <p>Join us at our Upcoming <a href='http://hackforchange.org/'>Hack for Change</a> event ... <a href='http://codeforsandiego.org/sddoci/'>San Diego Day of Civic Innovation</a></p>
+      </div>
+
+  <hr class="featurette-divider">
+
+      <div class="featurette">
+        <a href="http://brigade.codeforamerica.org/">
+          <img name="cfa" id="cfa" class="featurette-image pull-right" src="images/cfa_brigade_logo.png">
+        </a>
+        <h2 class="featurette-heading">Want To Help Your Neighborhood, City or Region? <span class="muted">Good, we could use your help.</span></h2>
+        <p class="lead">We are a <a href="http://brigade.codeforamerica.org/">Code for America Brigade</a>,
+          which means we're volunteers that contribute
+          our talents toward improving the way our local governments and community organizations use the web.
+          Brigade is about action and you're here because you are someone who takes action.
+          <a href="http://brigade.codeforamerica.org/pages/activities">See what kind of things brigades do</a>, or watch the
+            <a href="http://codeforamerica.org/2012/03/08/jennifer-pahlka-at-ted-video/">
+              inspirational TED talk given by Jennifer Pahlka, the founder of Code for America.</a></p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/maine-brigade">
+          <img name="groups" id="groups" class="featurette-image pull-right" src="images/google_groups.png">
+        </a>
+        <h2 class="featurette-heading">We Discuss Things Online. <span class="muted">Join and Introduce Yourself.</span></h2>
+        <p class="lead">
+          Can't make it to a meetup?  No problem. We collaborate on projects, ask for help, and post wins
+          to our <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/maine-brigade">Code for Maine forum</a> where you can get new posts in email and reply. We welcome anyone to sign-up... you might just see something you're interested in helping with. 
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img name="contact" id="contact" class="featurette-image pull-right" src="">
+        <h2 class="featurette-heading">Want Even More Info? <span class="muted">Contact Us.</span></h2>
+        <p class="lead">Our Brigade Captains are Andrew Jawitz and Emma Burnett (<a href="mailto:ajawitz@codeforamerica.org">ajawitz@codeforamerica.org</a> or (<a href="mailto:eburnett@codeforamerica.org">eburnett@codeforamerica.org</a> 
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a>&nbsp;&nbsp;</p>
+        <p>Amplify Your Impact! &nbsp;&nbsp;
+        <a href="https://twitter.com/codeforsandiego" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @codeforsandiego</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a>
+        <p>Built and Maintained by C4SD (Hey that's us). Site Design Based on <a href="http://twitter.github.com/bootstrap">Bootstrap</a>, Some Images Provided by <a href="http://thenounproject.com">The Noun Project</a>.</p>
+      </footer>
+
+    </div><!-- /.container -->
+<!-- UserVoice JavaScript SDK (only needed once on a page) -->
+<script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/T50A0gu81MvAHpYYB92REw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
+<!-- A tab to launch the Classic Widget -->
+<script>
+UserVoice = window.UserVoice || [];
+UserVoice.push(['showTab', 'classic_widget', {
+  mode: 'feedback',
+  primary_color: '#cc6d00',
+  link_color: '#007dbf',
+  forum_id: 199107,
+  feedback_tab_name: 'Tell us your ideas',
+  tab_label: 'Ideas',
+  tab_color: '#2facbd',
+  tab_position: 'middle-right',
+  tab_inverted: false
+}]);
+</script>
+<a href="https://github.com/code4maine/code4maine.github.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  </body>
+</html>
