@@ -5,6 +5,7 @@
 
     <name> -- <role> -- <twitter>
     <Jacques Tardie> -- <Dude> -- <@jacquestardie>
+    <Andrew Jawitz> --<Brigade Captain> -- <@carfreemaine>
 
 # THANKS
 
